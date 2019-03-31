@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "util to generate swagger file from a given postman collection",
   "main": "bin/index",
-  "repository": "https://github.com/braindrifters/postman-to-swagger.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/braindrifters/postman-to-swagger.git"
+  },
   "author": "suminksudhi",
   "license": "MIT",
   "engines": {
@@ -11,13 +14,27 @@
     "npm": "^3.10.10",
     "yarn": "1.12.3"
   },
-  "scripts":{
-    "start":"swagger-gen gen --baseUrl localhost:5005 --basePath /api/v1 --file swagger-exp-urp.postman_collection.json"
+  "scripts": {
+    "start": "swagger-gen gen --baseUrl localhost:5005 --basePath /api/v1 --file swagger-exp-urp.postman_collection.json"
   },
-  "scriptsDoc":{
-    "start":"generate the swagger file from a given postman collection"
+  "scriptsDoc": {
+    "start": "generate the swagger file from a given postman collection"
   },
   "bin": {
     "swagger-gen": "./bin/index.js"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/braindrifters/postman-to-swagger/issues"
+  },
+  "homepage": "https://github.com/braindrifters/postman-to-swagger#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "postman",
+    "swagger",
+    "postman-to-swagger",
+    "swagger",
+    "convertor"
+  ]
 }
