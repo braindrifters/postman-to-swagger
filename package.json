@@ -1,0 +1,12 @@
+{
+  "name": "@drifters/postman-to-swagger",
+  "version": "1.0.0",
+  "description": "util to generate swagger file from a given postman collection",
+  "main": "bin/index",
+  "repository": "https://github.com/braindrifters/postman-to-swagger.git",
+  "author": "suminksudhi",
+  "license": "MIT",
+  "bin": {
+    "swagger-gen": "./bin/index.js"
+  }
+}
