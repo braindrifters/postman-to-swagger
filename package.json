@@ -6,6 +6,17 @@
   "repository": "https://github.com/braindrifters/postman-to-swagger.git",
   "author": "suminksudhi",
   "license": "MIT",
+  "engines": {
+    "node": ">= 6.9.1",
+    "npm": "^3.10.10",
+    "yarn": "1.12.3"
+  },
+  "scripts":{
+    "start":"swagger-gen gen --baseUrl localhost:5005 --basePath /api/v1 --file swagger-exp-urp.postman_collection.json"
+  },
+  "scriptsDoc":{
+    "start":"generate the swagger file from a given postman collection"
+  },
   "bin": {
     "swagger-gen": "./bin/index.js"
   }
