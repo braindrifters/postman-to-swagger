@@ -1,4 +1,4 @@
-# @drifters/postman-to-swagger 1.0.0
+# @drifters/postman-to-swagger 1.0.1
 
 util to generate swagger file from a given postman collection
 
@@ -36,5 +36,5 @@ util to generate swagger file from a given postman collection
 
 
 
-##License
+## License
 MIT
